@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.header {
+    background-color: #212529;
+    padding: .2rem 0;
+}
+
+.container {
+    width: 1160px;
+    margin : 0 auto;
+}
+
+.navbar {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-left: 2rem;
+    flex: 1;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0 2rem;
+    color: antiquewhite;
+} 
