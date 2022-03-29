@@ -85,3 +85,11 @@ flex-direction: row;
     display: flex;
     justify-content: space-between;
 }
+
+.three{
+    order: 3;
+}
+
+.two {
+    order: -2;
+}
