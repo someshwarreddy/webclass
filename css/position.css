@@ -1,0 +1,38 @@
+
+/* Set the margin and padding of browser to zero means setting browser default margin and paddin to zero */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.postion {
+/* margin-left:50rem; */
+width: 800px;
+height: 200px;
+background-color: #E040FB;
+overflow-y: scroll;
+margin: 100px auto 0 auto;
+padding: 1rem;
+
+
+}
+
+.postion div {
+  display: inline-block;
+  width: 160px;
+height: 150px;
+background-color: #e2d1e6;
+margin-right: 10px;
+}
+.postion .one {
+    position: sticky;
+    background-color: red;
+
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
