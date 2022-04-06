@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.blocklevel {
+    width:200px;
+    height: 200px;
+    margin: 0 auto;
+    color: green;
+     /* display: flex; 
+    justify-content: space-between;  */
+}
+
+.blocklevel  span {
+    color:black;
+    font-size: 2rem;
+    margin-top:30rem;
+}
+
+.anchor {
+    margin-top:3rem;
+    display: inline-block;
+}
+
+

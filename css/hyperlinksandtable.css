@@ -1,0 +1,17 @@
+.blocklink {
+    margin-top:10px;
+    border: 2px solid red;
+}
+
+strong {
+    margin-top:10px;
+    border: 2px solid red;  
+}
+
+.docs::before {
+    content: '.';
+}
+/* a[title] {
+    color:red;
+} */
+
