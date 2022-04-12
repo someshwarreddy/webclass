@@ -1,0 +1,43 @@
+/* #external {
+    border: 1px solid yellow; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;
+} */
+/* selector css targating direct element */
+
+
+div {
+    border: 1px solid yellow; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;
+}
+/* with class name  */
+.external {
+    border: 3px solid blue; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;
+}
+
+#external {
+    border: 3px solid pink; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;
+}
+/* inline
+internal
+external */
+/* id 
+class
+div */
+
+/* #external p {
+    color: red;
+    font-size: 3rem;;
+} */
+
+#external p {
+    color: pink  !important;
+    font-size: 5rem; 
+}
+.external .paraclass {
+    color: blue;
+    font-size: 1rem;
+}
+.external #paraid {
+    color: green !important;
+    font-size: 1rem; 
+}
+
+

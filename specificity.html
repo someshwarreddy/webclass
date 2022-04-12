@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>specificity</title>
+    <link rel="stylesheet" href="css/specificity.css">
+    <style>
+        /* .internal {
+            border: 1px solid green; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;
+        } */
+    </style>
 </head>
 <body>
     <!-- inline -->
     <!-- internal -->
     <!-- external -->
-    <div style="border: 1px solid red; width: 200px; height: 200px; margin-left: 50%; text-align: center; vertical-align: middle;">
-        this div
+    <div  class ="external" id="external" >
+      <p class="paraclass" id="paraid" style="color: red;">this para</p>
     </div>
+    <!-- <div  class ="external" id="externaltwo" >
+        <p class="paraclass" id="paraid" style="color: red;">this para</p>
+      </div> -->
+
+
 </body>
 </html>
