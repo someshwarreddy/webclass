@@ -22,6 +22,18 @@
     top:-30px; */
     
 }
+
+.active:visited {
+    color: blue;
+}
+.active:hover {
+    color:yellow;  
+}
+
+.active:active {
+    color: red;
+    }
+
 .top {
     position: sticky;
     /* top:30px; */

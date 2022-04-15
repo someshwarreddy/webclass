@@ -24,6 +24,19 @@
     margin: 0 auto;
 }
 
+/* .active:visited {
+    color: red;
+    text-decoration: none;
+}  */
+.active:hover {
+    color: green;
+    text-decoration: none;  
+}
+.active:active {
+    color: blue;
+    text-decoration: none;
+} 
+
 .navbar {
     display: flex;
     justify-content: space-between;

@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* :psudoclassename */
+a {
+    font-size: 2rem;
+}
+
+a:link {
+    color:black 
+}
+a:active {
+    color:yellow;
+}
+/* a:hover {
+    color: red;
+} */
