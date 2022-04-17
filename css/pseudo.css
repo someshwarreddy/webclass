@@ -9,16 +9,86 @@
 } */
 
 /* :psudoclassename */
-a {
+/* a {
     font-size: 2rem;
-}
+} */
 
-a:link {
+/* a:link {
     color:black 
 }
 a:active {
     color:yellow;
-}
+} */
 /* a:hover {
     color: red;
 } */
+div {
+    color:yellow;
+}
+
+
+
+
+.chidclass div:nth-child(2) {
+    color:blue;
+    font-size:60px;
+}
+.chidclass div:nth-child(3) {
+    color:green;
+    font-size:60px;
+    position: relative;
+}
+.chidclass div:nth-child(4) {
+    color:green;
+    font-size:60px;
+}
+.chidclass div:first-child {
+    color:red;
+    font-size:30px;
+   
+}
+
+.chidclass div:last-child {
+    color:burlywood;
+    font-size:60px;
+}
+.chidclass div:only-child::first-letter {
+    color:black;
+    font-size:60px;
+}
+
+.elemnt {
+    color: red;
+    border: 2px solid green;
+    position: relative;
+    top:30px
+  
+}
+.elemnt::before {
+    content: 'vklll;;;;;;;;;;;;;;;;;;';
+    border: 2px solid red;
+    color: blue;
+}
+.elemnt::after {
+    content: '***************';
+    border: 2px solid yellow;
+    color: green;
+    font-size: 100px;;
+    position: absolute;
+    top:100px
+}
+.link {
+    color:greenyellow;
+    font-size: 20px;;
+}
+.link::before {
+    content: 'v4.6x.docs';
+    color:red;
+}
+
+
+
+
+
+
+
