@@ -1,0 +1,25 @@
+
+/* decendent slector  */
+.desendent .heading {
+ border : 1px solid red;
+}
+.desendent-two .heading .sub-block {
+    border : 1px solid blue;
+   }
+
+   /* child combinator dentoted by > */
+
+  .parent > p {
+      /* border: 2px solid red; */
+  } 
+
+  /* adjcent combinator * denoted by +/*/
+
+  .parent  h1 + p{
+      border: 2px solid green;
+  }
+  /*  General sibling combinator denoted by ~ */
+
+  .parent div ~ p {
+    /* border: 2px solid green; */
+}
