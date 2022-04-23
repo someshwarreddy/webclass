@@ -33,3 +33,20 @@ div.border {
     height: 150px;
     border-radius: 50%;
 }
+
+.bacground {
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 5px;
+    background-image: url('https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    /* background-color: darkorange; */
+    width: 1000px;
+    /* height: 300px; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-clip: border-box;
+    background-origin: border-box; */
+
+}

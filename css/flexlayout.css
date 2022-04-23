@@ -5,6 +5,11 @@
 
 .logo {
     color: #fff;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
 }
 
 .header {
@@ -73,7 +78,14 @@
 
 .thumbnail {
     background-color: peru;
+    
     padding-top: 2rem;
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box; 
+    background-attachment: fixed;
 }
 
 .thumbnail-content {
@@ -93,10 +105,16 @@
 
 .thumbnail-text {
     background-color: #adb5bd;
+     background-image: url('https://images.pexels.com/photos/2128807/pexels-photo-2128807.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height:200px ;
     justify-content: center;
     align-items: center;
-    height: 200px;
     display: flex;
+    overflow-y: scroll;
+    color:#fff;
     border-radius: 1%
 }
 
