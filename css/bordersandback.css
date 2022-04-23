@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+/* it selects the particular div with its classsname */
+div.border {
+    width:300px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    place-items: center; */
+    /* position: absolute;
+    top:50%;
+    left:50%;
+    transform: translateY(50%); */
+    /* border-top:  solid red;
+    border-bottom:  dotted gold;
+    border-left:  solid cadetblue;
+    border-right:  solid darkorange;
+    border-width:5px; */
+    border: 5px solid darkorange ;
+    /* border-radius: 50%; */
+}
+
+.avatarImage {
+    /* display: inline; */
+     width: 150px; 
+    /* width:300px; */
+    height: 150px;
+    border-radius: 50%;
+}
