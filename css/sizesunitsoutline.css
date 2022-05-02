@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outline-box {
+    height: 100px;
+    width:100px;
+    margin: 100px auto 0 auto;
+    border: 1px solid red;
+    outline-offset: 40px;
+    outline: 7px dotted blue;
+}
+/* overwrite */
+.outline-box.display-none {
+    border: 1px solid green;
+    display: none;
+}
+
+.vissable-hide {
+    visibility: hidden;
+}
