@@ -35,4 +35,41 @@
     text-transform: capitalize;
     padding: 0 2rem;
     color: antiquewhite;
+}
+.drop-down-hover {
+    display: none;
+    border: 2px solid red;
+    width:580px;
+
+    /* visibility: hidden; */
 } 
+.drop-down-hover {
+    position: absolute;
+    left:30px;
+    top:38px;
+    /* visibility: hidden; */
+} 
+
+.drop-down-hover li {
+    margin: 16px 8px;
+}
+.drop-down-hover li a {
+    margin: 0;
+    padding: 2px 8px;
+    text-align: left;
+    /* width:200px */
+}
+.nav-links {
+    position: relative;
+}
+.nav-link-one:hover .drop-down-hover {
+    display: block;
+
+}
+
+.nav-link-one:hover .link-one {
+    padding-bottom: 1rem;
+
+}
+
+
