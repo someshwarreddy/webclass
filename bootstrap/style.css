@@ -18,3 +18,36 @@ body {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+.custom-indicators {
+  justify-content: flex-end;
+  bottom: -110px;
+}
+
+.products {
+    background-color: #fff;
+    padding-top: 2rem;
+    /* border-spacing: 2px; */
+
+}
+
+.products-border {
+    border-top:1px solid grey; 
+
+}
+
+.disply-inline {
+    display: inline;
+}
+.img-padding {
+    margin-right: 20px;
+}
+
+.sellrs-border {
+    border-left: 1px solid grey;
+    padding-left: 20px;
+}
+
+.sellars-items {
+    padding: 20px 0;
+}
