@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+.float-lay {
+    float: left;
+    /* display: flex; */
+    border: 1px solid  red;
+    width:100px;
+    margin: 0 0 0 100px;
+}
+
+.float-clear {
+    clear: both;
+    float: left;
+    border:2px solid green;
+}
+
+.inline {
+    display: inline;
+    /* display: inline-block; */
+    border:2px solid green;
+    background-color:grey;
+    color:#fff;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.overflow a {
+     display: block;
+     padding: .3rem;
+     margin: .4rem ;
+     flex: 0 0 auto;
+     border: 1px solid greenyellow ;
+     text-decoration: none;
+}
+
+.overflow {
+    width:300px;
+    margin: 0 auto;
+    border: 1px solid red;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+  
+}
